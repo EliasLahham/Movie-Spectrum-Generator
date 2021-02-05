@@ -16,10 +16,10 @@ Movie Spectrum Generator is a Python script that takes in a video file and produ
 3. Select a location to save the movie spectrum image
 4. Create a name for the movie spectrum image
 5. Input desired width of movie spectrum image (vertical bar count)
-  - **Each bar is 1 PIXEL WIDE**
+   - **Each bar is 1 PIXEL WIDE**
 6. Input desired height of movie spectrum image
 7. The script should now be running...
-  - **Typical runtime for 2000x by 200y images is around 3-5 minutes**
+   - **Typical runtime for 2000x by 200y images is around 3-5 minutes**
 
 ## How it works
 
