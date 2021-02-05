@@ -1,6 +1,6 @@
 # Movie-Spectrum-Generator v1.0
 
-Movie Spectrum Generator is a Python script that takes in a video file and produces a movie spectrum/barcode like image by scanning video frames. Each vertical bar in the output image is made up of the dominant color of that particular frame. The script takes in various user parameters before saving the image to the user's desired file directory.
+Movie Spectrum Generator is a Python script that takes in a video file and generates a movie spectrum/barcode like image by scanning video frames. Each vertical bar in the output image is made up of the dominant color of that particular frame. The script takes in various user parameters before saving the image to the user's desired file directory.
 
 ## Table of Contents
 1. [Instructions](https://github.com/EliasLahham/Movie-Spectrum-Generator/blob/main/README.md#instructions)
@@ -11,7 +11,7 @@ Movie Spectrum Generator is a Python script that takes in a video file and produ
 
 ## Instructions
 
-1. Have [libraries](https://github.com/EliasLahham/Movie-Spectrum-Generator/blob/main/README.md#libraries-used) installed and execute the script
+1. Have these [libraries](https://github.com/EliasLahham/Movie-Spectrum-Generator/blob/main/README.md#libraries-used) installed and execute the script
 2. Select a video file. Most formats are accepted (.mp4 and .mkv have been tested and work)
 3. Select a location to save the movie spectrum image
 4. Create a name for the movie spectrum image
