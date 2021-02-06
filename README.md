@@ -23,7 +23,18 @@ Movie Spectrum Generator is a Python script that takes in a video file and gener
 
 ## How it works
 
-- Magic
+After user parameters are entered, these steps will execute:
+
+1. OpenCV will start a VideoCapture
+2. Script will record video metadata:
+   - fps
+   - total_frames
+   - frame_offset (total_frames/user specified width)
+3. Begin processing video frames
+   - Any frame being processed will run through colorthief and return the dominant_color of that frame
+   - Any frame being processed is also temporarily stored in a temp folder that will be deleted after the script finishes
+   - After a dominant_color is returned, a 1 x (height specified by user) is drawn with that dominant_color
+   - The next frame is determined by the frame_offset variable
 
 ## Examples
 
